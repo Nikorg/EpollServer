@@ -1,8 +1,0 @@
-all: socket epoll
-
-socket:
-	gcc socketServer.c -o SocketServer
-
-epoll:
-	gcc epollServer.c -o EpollServer
-
