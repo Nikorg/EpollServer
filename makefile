@@ -1,5 +1,5 @@
 all: epoll
 
 epoll:
-	gcc epollServer.c -o EpollServer
+	gcc epoll_server.c -o epoll_server
 
